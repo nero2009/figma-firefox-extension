@@ -36,9 +36,11 @@ storage.get('enabled', items => {
             checkerStyles =
             `<style>
                 #dialogChecker {position: absolute; top: -9999px; left: -9999px;}
-                #dialogChecker:focus {padding: 42px;}
+                #dialogChecker:focus {padding: 100px;}
             </style>`;
         document.body.innerHTML += checkerElement + checkerStyles;
+
+
     }
 
     function createNotice() {
@@ -58,7 +60,7 @@ storage.get('enabled', items => {
                 <br>
                 <br>
                 <br>
-                <small>Please <a href="mailto:alex.chabin@gmail.com">let me know</a> if you have any question</small>
+                <small>Please <a href="mailto:nero2009@rocketmail.com">let me know</a> if you have any question</small>
                 <br>
             </div>
         `;
