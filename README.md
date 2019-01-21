@@ -1,4 +1,4 @@
- ![example](https://i.imgur.com/h462XiN.gifv "Example")
+![example](https://i.imgur.com/h462XiN.gifv "Example")
 
 Small extension for Firefox, which automaticaly opens your Figma URLs in [Figma Desktop Application](https://www.figma.com/downloads) (macOS, Windows)
 
