@@ -11,7 +11,7 @@ storage.get('enabled', function (items) {
         browserAction.setIcon({ 'path': './icons/icon-32-disabled.png' });
 });
 
-chrome.extension.onMessage.addListener(function (request) {
+browser.runtime.onMessage.addListener(function (request) {
     if (request == "enabled")
         browserAction.setIcon({ 'path': './icons/icon-32.png' });
     else if (request == "disabled")

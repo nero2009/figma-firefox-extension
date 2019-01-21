@@ -9,6 +9,6 @@ storage.get('enabled', function(items) {
 });
 
 function updateExtensionStatus(status) {
-    chrome.extension.sendMessage(status);
+    browser.runtime.sendMessage(status);
     window.close();
 }
